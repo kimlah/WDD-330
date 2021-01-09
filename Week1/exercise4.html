@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 1 Exercise 4</title> 
+        <meta name="description" content="Exercise based on week 1 reading">
+        <link rel="stylesheet" href="../index.css">
+
+        <script>
+            function checkNumber() {
+                var someNumbers = [25, 11, -2, 14, "hi! I'm not a number!", -1, -10]
+                for(var i = 0; i < 7; i++) {
+                    var numberAsText = someNumbers[i]
+                    var aNumber = parseInt(numberAsText)
+                    if(numberAsText != "" && !isNaN(aNumber)) {
+                        var remainder = Math.abs(aNumber % 2)
+                            if(remainder == 0 && aNumber != 0) {
+                                document.getElementById("result_display").innerHTML += "<p>" + aNumber + " is even.</p>"
+                            } 
+                            else if(remainder == 1 && aNumber != 0) {
+                                document.getElementById("result_display").innerHTML += "<p>" + aNumber + " is odd.</p>"
+                            }
+                            else {
+                                document.getElementById("result_display").innerHTML += "<p>" + aNumber + " is neither even nor odd.</p>"
+                            }
+                    }
+                    else {
+                        document.getElementById("result_display").innerHTML += "<p>Please enter a number.</p>"
+                    }
+                }
+            }
+        </script>
+        <style>
+            button {
+                background-color: #007991;
+                color: white;
+                padding: .25em;
+            }
+            input {
+                border: none;
+                border-radius: 3px;
+                box-shadow: 0 0 5px #007991 inset;
+                background-color: #00799150;
+                height: 25px;
+                width: 200px;
+                text-indent: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Week 1</h1>
+            <h2>Group Loop Exercise</h2>
+                <button onclick="checkNumber()">Check My Number!</button>
+                <section id="result_display"></section>
+        </main>
+        
+    </body>
+</html>

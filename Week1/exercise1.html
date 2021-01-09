@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 1 Exercises</title> 
+        <meta name="description" content="Exercises based on week 1 reading">
+        <link rel="stylesheet" href="../index.css">
+
+        <script>
+            function showCongratulations(theButtonClicked){
+                document.getElementById("result_display").innerHTML = 
+                    "Congratulations, you did it!"
+                theButtonClicked.innerHTML = "Click Me Again!"
+            }
+        </script>
+        <style>
+            button {
+                background-color: #007991;
+                margin-left: 1.75em;
+            }
+            #result_display {
+                background-color: #C0C5C1;
+                color: #007991;
+                margin: 2em 1em;
+                width: 250px;
+                height: 200px;
+                padding: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Week 1</h1>
+            <h2>Button Exercise</h2>
+                <button onclick="showCongratulations(this)">Click Me!</button>
+                <section id="result_display"></section>
+        </main>
+        
+    </body>
+</html>

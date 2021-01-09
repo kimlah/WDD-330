@@ -1,0 +1,28 @@
+/* Colors:
+        Teal Blue: #007991
+        Silver Sand: #C0C5C1
+        Russian Violet: #42033D
+        Baby Powder: #FDFFFC
+        Languid Lavendar: #DCCDE8
+*/
+
+body {
+    background-color: #DCCDE8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    background-color: #FDFFFC;
+    padding: 0 0 1em;
+}
+
+h1, h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #42033D;
+    color: white;
+    text-align: left;
+    padding: .3em 1em;
+}
+
