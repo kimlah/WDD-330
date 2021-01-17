@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Group 1 Week 2 Activity</title> 
+        <meta name="description" content="Group 1 Week 2 Activity for WDD 330 at BYUI Winter 2021">
+
+        <script>
+            // Requirement 1
+            function showText() {
+                let textInput = document.getElementById("text-input").value;
+                document.getElementById("display-text").innerHTML = textInput;
+            };
+
+            // Requirement 2
+            let sumAll = function(x) {
+                let result = 0;
+                let multiplier = 1;
+
+                if (x < 0) {
+                    multiplier = -1
+                }
+
+                for (let i = 0; i <= x * multiplier; i++) {
+                    result += i + multiplier;
+                }
+                return result;
+            };
+
+            function addNums(x) {
+                if (Number.isInteger(Number(x))) {
+                    let number_sum = sumAll(x);
+                    document.getElementById("sum-display").innerHTML = number_sum;
+                }
+            }
+
+            // Requirement 3
+            function add_inputs() {
+                let inputs = return_inputs();
+
+                document.getElementById("output").innerHTML = inputs[0] + inputs[1];
+            }
+
+            const multiply = (a,b) => a * b;
+
+            function multiply_inputs() {
+                let inputs = return_inputs();
+                document.getElementById("output").innerHTML = multiply(inputs[0], inputs[1]);
+            }
+
+            function return_inputs() {
+                let a = Number(document.getElementById("input1").value);
+                let b = Number(document.getElementById("input2").value);
+                return [a, b];
+            }
+
+            function subtract(a, b) {
+                return a - b;
+            }
+
+            function do_math(math_function) {
+                let inputs = return_inputs;
+                let result = math_function(inputs[0], inputs[1]);
+                document.getElementById("output").innerHTML = result;
+            }
+
+        </script>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <h1>Week 2 Group Activity</h1>
+        <h2>Part 1</h2>
+            Text Input: <input id="text-input"></input>
+            <button onclick="showText()">Click Me!</button>
+
+            <div id="display-text"></div>
+        
+        <h2>Part 2 - modify your HTML file</h2>
+            Enter a number: <input id="part2-num"></input>
+            <button onclick="addNums(document.getElementById('part2-num').value);">Add Numbers</button>
+
+            <div id="sum-display"></div>
+
+        <h2>Part 3 - Create an adding machine</h2>
+            <input id="input1" placeholder="Enter a number." type="number"></input>
+            <input id="input2" placeholder="Enter a number." type="number"></input>
+
+            <button onclick="add_inputs();"> + </button>
+            <button onclick="do_math(multiply);"> * </button>
+            <button onclick="do_math(subtract);"> - </button>
+
+            <div id="output"></div>
+
+        <h2>Stretch Goals</h2>
+            <h3>Part 1 - Function Declaration</h3>
+
+            <h3>Part 2 - Writing 'good' functions</h3>
+
+            <h3>Part 3 - Callbacks</h3>
+                
+    </body>
+</html>

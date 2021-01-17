@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 1 Notes</title> 
+        <meta name="description" content="Notes based on week 1 reading">
+        <link rel="stylesheet" href="../index.css">
+    </head>
+    <body>
+        <main>
+            <h1>Week 2</h1>
+            <h2>Assignment</h2>
+                <ol>
+                    <li>JavaScript: Novice to Ninja - Chapter 2: Programming Basics</li>
+                    <li>JavaScript: Novice to Ninja - Chapter 3: Arrays, Logic, and Loops</li>
+                    <li>JavaScript: Novice to Ninja - Chapter 4: Functions</li>
+                    <li><a href="https://eloquentjavascript.net/code/">Codes on Sandbox for Chapters 2-4</a></li>
+                    <li><a href="https://eloquentjavascript.net/index.html">Eloguent JavaScript</a></li>
+                </ol>
+
+            <h2>Notes</h2>
+                <ul>
+                    <li>Variable keywords bind the object to the statement. Binding can be changed at any point by redefining 
+                        the statement. I love the octopus example in the Eloquent JavaScript reading: bindings do not contain 
+                        values but grasp them like an octopus grasps an object. Two tentacles can hold the same value but it 
+                        can also let go and grab something new.
+                    </li>
+                    <li>One let statement can define more than one "binding" if the bound pairs are separrated by a comma.</li>
+                    <li>I want to look into the "Math." options so that I know what is already avilable for use. 
+                        I don't want to make more work for myself than is necessary.</li>
+                    <li>"//" is for single line comments, "/* */" is for multi line comments.</li>
+                    <li>The syntax used by JavaScript is called C-style because it has similarities with the C programming 
+                        language. What is C used for? What does it do that other programming languages don't? What can't C do?</li>
+                    <li>JS has 7 data types. The 6 primitive data types are string, symbol, number, boolean, undefined and null. 
+                        Any value that isn't one of the 6 primitive data types is an object. --- typeof is a JS operator to find 
+                        out the type of a value. "typeof 'hello'" is an example of how to use it.
+                    </li>
+                    <li>const declares a variable that cannot be changes while let declares a variable that can be updated, 
+                        reassigned, etc. Const and let variables only exist in the block they are declared in. Try not to use var anymore.</li>
+                    <li>Be careful of how variables are declared so that they are not global when local is needed or vis versa.</li>
+                    <li>".length", ".toUpperCase()", "to LowerCase()", ".charAt(#)" (tells character in mentioned position), ".indexOf('#')" 
+                        (finds where a certain character is in the string). ".lastIndexOf('#')" (same as .indexOf but the last occurance 
+                        instead of the first. There are so many cool wrappers that have already been created to make programming smoother, 
+                        quicker and more effective.</li>
+                    <li>It is strange to be introduced to symbols but not be given much information on them. If I have time I will look into it.</li>
+                    <li>Integers are whole numbers, floats are decimals. I mix these up often but it is so straight foreward. Maybe I'll get it straight 
+                        one of these days. toFixed() is such a useful tool to use with floats or when dividing especially.
+                    </li>
+                    <li>NaN - error value for not a number. It is the result of not using numbers or numbers as a string.</li>
+                    <li>Check if a value is a number by using Number.isFinite(). It will return true if teh number isn't Infinity, -Infinity or NaN.</li>
+                    <li>Check into TypeScript! Is it worht using?</li>
+                    <li>Double equals (==) is soft equality and doesn't pay as much attention to the data type. Triple equals (===) is hard equality 
+                        and only returns true if the data type is correct. 
+                    </li>
+                    <li>Array-ordered list of values. const myArray = []; To access a specific value in the array type myArray[6]. To assign an element 
+                        in the array: myArray[7] = 'Oreo Fudge'; It can be changed by reassigning the array position.
+                    </li>
+                    <li>Array Literals-create array with some of the elements initially so as to not have to add later. const avengers = ['Capitan America', 
+                        'Iron Man', 'Thor', 'Hulk'];
+                    </li>
+                    <li>The join() method seems useful to take an array list as a whole and then could be seperated to use without recreating.</li>
+                    <li>reverse() reverses the array permanantly. sort() sorts the array in alphabetical order.</li>
+                    <li>Multidimentional arrays seems really cool! I feel like it will take a few times of using one for it to make more sense but besides 
+                        accessing the values it doesn't seem too complicated. 
+                    </li>
+                    <li>Sets cannot have duplicates. const list = new Set(); is how to create a set. Use the add() method to add values to a set: list.add(1); 
+                        An array can be added to a set to get rid of duplicates. Sets so not have index notation.
+                    </li>
+                    <li>Thw while loop example of the bottles decreasing is very interesting. I hadn't thought about decreasing the number before the loop instead of after.</li>
+                    <li>do...while loops will always run once because the while condition is checked after the do loop.</li>
+                    <li>I like the outline for the for loop: for (initialization ; condition ; after) { do something }, I always have a hard 
+                        time remembering the necessary parts of a for loop.</li>
+                    <li>If too few parameters are given when using a function then it returns NaN because it cannot process the function correctly. If it has too 
+                        many parameters then it ignores the extra parameters.
+                    </li>
+                    <li>function rest(...args){return args;} is used to create an array of arguments that are available inside the function body.</li>
+                    <li>=> is for declaring functions. parameters come before the arrow and the main body comes after the arrow. They are anonymas so to 
+                        give it a name I would need to do something like this.  "const square = x => x*x;".
+                    </li>
+                </ul>
+        </main>
+        
+    </body>
+</html>
