@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 1 Notes</title> 
+        <meta name="description" content="Notes based on week 1 reading">
+        <link rel="stylesheet" href="../index.css">
+    </head>
+    <body>
+        <main>
+            <h1>Week 2</h1>
+            <h2>Assignment</h2>
+                <ol>
+                    <li><a href="https://javascript.info/object-methods">Object Methods: this</a> and/or <a href="https://zellwk.com/blog/this/">This in JavaScript</a></li>
+                    <li>JavaScript: Novice to Ninja - Chapter 5: Objects</li>
+                    <li>JavaScript: Novice to Ninja - Chapter 6: Document Object Model</li>
+                    <li>JavaScript: Novice to Ninja - Chapter 7: Events</li>
+                    <li><a href="https://eloquentjavascript.net/code/">Codes on Sandbox for Chapters 14-15</a></li>
+                </ol>
+
+            <h2>Notes</h2>
+                <h3>Object Methods: this & This in JavaScript</h3>
+                    <ul>
+                        <li>Action sin the real world are represented by functions in JavaScript.</li>
+                        <li>When writing code with objects used to represent things it is called OOP or object oriented programming.</li>
+                        <li>Books to look into to better understand OOP: “Design Patterns: Elements of Reusable Object-Oriented Software” 
+                            by E. Gamma, R. Helm, R. Johnson, J. Vissides or “Object-Oriented Analysis and Design with Applications” by G. Booch</li>
+                        <li>It sounds like "this" is acble to be used in any function with ".onjectName" following it to access 
+                            the assignment of that object it.</li>
+                        <li>Arrow functions have no "this" but if used then this is called from the outer function.</li>
+                        <li>There are 6 ways that this can take on values: 1-in global contex (wouldn't be used in this contex), 2-in object construction 
+                            (this referes to the instance of an object), 3-in an object method (method is a fancy word for a function associated with an 
+                            object), 4-in a simple function (), 5-in an arrow function and 6-in an event listener.</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                <h3>Chapter 5: Objects</h3>
+                    <ul>
+                        <li>Everything in JAvaScripit is either one of the six primitive data types or an object.</li>
+                        <li>An object is a self contained set of values and functions that are related. They are used to map strings, numbers, arrays and 
+                            functions. It's like a dictionary that has a property <i>name</i> with it's "definition" or value.</li>
+                        <li>Object literal outline: const family = {name: 'Imlah', husband: 'Spencer', wife: 'Keeley', children: ['Kyla', 'Wyatt', 'Whitney'],
+                            married: true. sealed: true, motto() {return 'We don't have a motto';}};</li>
+                        <li>To create an object: const name = {}</li>
+                        <li>Accessing Properties family.name in my example would return 'Imlah'.</li>
+                        <li>family.motto() and family['motto'] would both return 'We don't have a motto'.</li>
+                        <li>To check is a property or method exists in an object I would say 'daughter' in family; which would return false.</li>
+                        <li>If I wanted to add a city to my example: family.city = 'Arlington'; If we moved I could change the city location by: family['city'] = 
+                            'Meridian'; To deleter the motto since we don't have one I would add delete family.motto</li>
+                        <li>The namespacing seems like a great idea! Working in teams seems like a common practice with programming so allowing 
+                            everyone to use the names that makes sense to them while allowing repeats is genious.</li>
+                        <li>JSON parse() returns a JS object from the string of data. stringify() does the opposite and returns a JSON string from a JS object.</li>
+                        <li>Math. constants are in capital letters. 1-PI, 2-SQRT2 the square root of 2, 3-SQRT1_2 reciprical of the square root of 2, 4-E Euler's 
+                            constant, 5-LN2 natural log of 2, 6-LN10 natural log of 10, 7-LOG2E log base 2 of Euler's Constant, 8-LOG10E log base 10 of Euler's Constant.</li>
+                        <li>Math has lots of methods like .abs for absolute value, .ceil for rounding up to the next integer, .floor for rounding down to the next integer, 
+                            .round to round to the nearest integer, .trunc to return the integer part of a number. I'm sure there is a long list on W3schools that I can 
+                            print with all of the math methods.
+                        </li>
+                        <li>moment.js library gives a large number of methods to work with dates easier.</li>
+                    </ul>
+                <h3>Chapter 6: Document Object Model</h3>
+                    <ul>
+                        <li>Numerical code of Nodes: 1-element, 2-attribute, 3-text, 8-comment, 9-body.</li>
+                        <li>When checking the nodeName it is returned in all caps.</li>
+                        <li>Document.body returns the body element of a web page. Document.images returns a node list of images in the document. 
+                            Document.links returns a node list of "a href" elements in the document. Document.anchors returns a node list of "a" 
+                            elements with a name attribute. Document.forms returns a node list of the forms in the document. 
+                        </li>
+                        <li>Nodes are not arrays but are array-like. Items can be accessed using index notation, can use the length property but 
+                            cannot slice, splice or join. It can be easily turned into an array by using "Array.from(document.images);" for example.</li>
+                        <li>An id attribute needs to be unique for each one. I know I have mixed this up a few times and made a 
+                            class and id have the same name, it messed me up for quite a while trying to figure out what was wrong.</li>
+                        <li>I never think to use these shortcuts, for lack of a better word, in the console to find things in my documents. It's so convenient!</li>
+                        <li>document.querySelector() searches for the first item that matches while document.querySelectorAll() returns a node list of 
+                            ALL items that match. .querySelector could be used in place of .getElementById(). .querySelectorAll() could be used in place of 
+                            document.getElementByClassName.</li>
+                        <li>.getAttribute('class') or teh attribute provided.</li>
+                        <li>appendChild adds an element to the end of a list. insertBefore(newElement, moveElement) will place an element before the specified element. 
+                            removeChild(elementName) is used to remove an element from the page. replaceChild(oldText, newText); can be used to rename an element or 
+                            replace it all together.
+                        </li>
+                    </ul>
+                <h3>Chapter 7: Events</h3>
+                    <ul>
+                        <li>Event listeners-I liked the example given in the reading but I also thought another fitting example is a doorbell. We could sit at the 
+                            door all day waiting for someone or something or we could listen for the doorbell or a knock to alert us and then act once it happens.</li>
+                        <li>document.body.addEventListener("click", doSomething); is used when we want to flag a certain action instead of running an if loop over and over.</li>
+                        <li>Event listeners are the current standard. </li>
+                        <li>Properties screenX and screenY  show the number of pixels from the top left of the screen where the event took place.</li>
+                        <li>Properties clientX and clientY show the number of pixels from the top left of the 'client' that is being used (usually browser window).</li>
+                        <li>Properties pageX and pageY show the number of pixels from the left and top (respectively) where the event took place in a <b>document</b>. 
+                            This takes into account if teh page as been scrolled.</li>
+                        <li>Mouse Events-click, mousedown, mouseup, dblclick. Do not use click and dblclick on the same element because doing so will cause both to fire.</li>
+                        <li>Keyboard Events-keydown, keypress, and keyup. Occur in order listed but are not tied to any key in particular. keydown occurs when key is 
+                            pressed and continues to occur if it is held down. keypress occurs after a keydown event but before a keyup. keypress only occurs for 
+                            keys that produce character input and teh delete key. keyup occurs when a key is released. </li>
+                        <li>Modifier Keys-shift, alt, ctrl and meta(cmd on mac) fire keydown and keyup but not a keypress event because no characters are produced on the screen.</li>
+                        <li>Touch Events- smartphones, tablets and touch screen monitors all use touch events. touchstart occurs when user initially touches the surface. A touchstart 
+                            event can interfere with usability if it fires when a user just wants to zoom, swipe, etc. click is a safer option to use because it still fires when the 
+                            screen is touched but it has a 300ms delay which allows the user to do something else. touchend occurs when the user stops touching the surface. touchmove 
+                            events occur when a user touches the screen and then moves around without leaving the screen. touchenter is when a user is touching the surface and then 
+                            passes over an event with an event listener. touchleave occurs when the user is touching the surface but leaves the element the event listener is attatched 
+                            to. touchcancel event is when a touch event is interupted like too many fingers, fingers moving off the screen, etc.</li>
+                        <li>Touch events have properties called touches. Use touch events with caution.</li>
+                        <li>Event listeners can be removed using removeEventListener().</li>
+                        <li>Bubbling-when an event fires on the element clicked on first, then bubbles up the document tree, firing or 'touching' each node until it reaches the root 
+                            node. Default method over capturing but both can be used.</li>
+                        <li>Capturing-starts by firing an event on teh root element, then moves down, firing on each child element until it reaches the target element that was clicked on.</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                <h3>Questions</h3>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+        </main>
+        
+    </body>
+</html>
