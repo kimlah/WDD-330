@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 3 Exercise 2</title> 
+        <meta name="description" content="Exercise based on week 3 reading">
+        <link rel="stylesheet" href="../index.css">
+    </head>
+    
+    <body>
+        <h1>Week 3</h1>
+        <h2>Build a Table</h2>
+            <div id="mountains"></div>
+
+            <script>
+              const MOUNTAINS = [
+                {name: "Kilimanjaro", height: 5895, place: "Tanzania"},
+                {name: "Everest", height: 8848, place: "Nepal"},
+                {name: "Mount Fuji", height: 3776, place: "Japan"},
+                {name: "Vaalserberg", height: 323, place: "Netherlands"},
+                {name: "Denali", height: 6168, place: "United States"},
+                {name: "Popocatepetl", height: 5465, place: "Mexico"},
+                {name: "Mont Blanc", height: 4808, place: "Italy/France"}
+              ];
+            
+              // Your code here
+              function buildTable(data) {
+                  //create element "table"
+                  let table = document.createElement("table");
+                  
+                  //start at object 0
+                  let fields = Object.keys(data[0]);
+                  //create table row
+                  let headRow = document.createElement("tr");
+                  fields.forEach(function(field) {
+                    //create heading cells
+                    let headCell = document.createElement("th");
+                    headCell.appendChild(document.createTextNode(field));
+                    headRow.appendChild(headCell);
+                  }); 
+
+                  //append headings for table
+                  table.appendChild(headRow);
+
+                  //for each object in the array
+                  data.forEach(function(object) {
+                      let row = document.createElement("tr");
+                      fields.forEach(function(field) {
+                          //create cell for information
+                          let cell = document.createElement("td");
+                          cell.appendChild(document.createTextNode(object[field]));
+                          //if the array item is then align right in table field
+                          if (typeof object[field] == "number") {
+                              cell.style.textAlign = "right";
+                          }
+                          row.appendChild(cell);
+                      });
+                      table.appendChild(row);
+                  });
+                  return table;
+              }
+              // find "mountains" in html document. apply data table to that div.
+              document.querySelector("#mountains").appendChild(buildTable(MOUNTAINS));
+            </script>
+    </body>
+</html>
