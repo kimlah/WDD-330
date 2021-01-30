@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 4 Notes</title> 
+        <meta name="description" content="Notes based on week 4 reading">
+        <link rel="stylesheet" href="../index.css">
+    </head>
+    <body>
+        <main>
+            <h1>Week 4</h1>
+            <h2>Assignment</h2>
+                <ol>
+                    <li>JavaScript: Novice to Ninja - Chapter 8: Forms</li>
+                    <li>JavaScript: Novice to Ninja - Chapter 12: Object Oriented Programming</li>
+                    <li>JavaScript: Novice to Ninja - Chapter 15: Section on Modular JavaScript</li>
+                    <li><a href="https://eloquentjavascript.net/code/">Codes on Sandbox for Chapters 6 and 10</a></li>
+                </ol>
+
+            <h2>Notes</h2>
+                <h3>JavaScript: Novice to Ninja - Chapter 8: Forms</h3>
+                    <ul>
+                        <li>form element has controls like input fields, select menus, buttons, etc.</li>
+                        <li>form.reset() resets the form controls to what the initial value was. Or button type='reset'</button></li>
+                        <li>form.action = 'url' sends the form to a different URL.</li>
+                        <li>Adding a placeholder seems to take less work than adding an input value to the text box. It also seems like 
+                            it would be less work for the user.</li>
+                        <li>Form Control types: input, select, textarea, button</li>
+                        <li>Making input type='password' makes it so that the password is concealed instead of regular text.</li>
+                        <li>Other input types include number, tel, color, date, email, </li>
+                    </ul>
+                <h3>JavaScript: Novice to Ninja - Chapter 12: Object Oriented Programming</h3>
+                    <ul>
+                        <li>OOP is often used to model real world objects.</li>
+                        <li>The three main concepts in OOP are: encapsulation, polymorphism, and inheritance.</li>
+                        <li>In the reading a juicer is used as an example of a real world object, it has properties and 
+                            methods/actions that it can preform. Encapsulation: put the fruit in, turn on, and out comes 
+                            the juice. The inner workings are hidden inside the object and only the essential functions 
+                            are exposed. The essential functionality in this case is the on button. This makes it simple 
+                            to call the "on" function without having to have the user tell the juicer each step of the 
+                            juicing process. Polymorphism: various objects can share the same method just like appliances 
+                            plug in, usually have an on switch, have buttons, etc. They have the ability to have different 
+                            methods/functions with more specific information. Inheritance: the new and improved juicer can 
+                            do more things but probably has the same guts. Inheritance is the same in that it can take the 
+                            features from something else and apply it to something else.</li>
+                        <li>Even though JS now uses classes, it still uses prototype inheritance in teh background.</li>
+                        <li>Some of JS's built in constructor functions are Object, Array, and Function that can be used 
+                            to create objects, arrays and functions instead of literals.</li>
+                        <li>The ".constructor" property will return the function that created it.</li>
+                        <li>A static method can only be called by the class it was created in and cannot be inherited.</li>
+                        <li>To find the prototype of an object use Object.getPrototypeOf() method. The object is the parameter.</li>
+                        <li>Object.hasOwnProperty('') can be used to return a boolean for if it is it's own property or 
+                            inherited from the prototype.</li>
+                        <li>Overwriting prototype properties is as easy as reassigning.</li>
+                        <li>Never use arrays or objects as a default value in prototype.</li>
+                        <li>There is a prototype chain that goes all teh way back to the Object() constructor function. If 
+                            I call a method, if it isn't in the nearest prototype then the search continues back to object().</li>
+                        <li>Using extends is better practice because in the case of the turtle class, it could be used for normal 
+                            turtles and then be extended for ninja turtles, sea turtles, etc with things that only apply to 
+                            certain objects.</li>
+                        <li>Polymorphism means that objects can inherit the same method but use it in different ways.</li>
+                        <li>When using console.log numbers are automatically changed to a string with toString.</li>
+                    </ul>
+                <h3>JavaScript: Novice to Ninja - Chapter 15: Section on Modular JavaScript</h3>
+                    <ul>
+                        <li>A module is a self contained piece of code. It provides function and methods that can be used 
+                            in other places such as other files and modules. This makes code resuable, easier to maintain and more accesible.</li>
+                        <li>Coupling is used to describe how dependent two codes are on each other. The more tightly coupled codes will most 
+                            likely require changes to both codes if one needs to be changed. Loosly coupled codes are able to npt be 
+                            modified as much or at all if the other code is changed.</li>
+                        <li>Modules have their own global scope and can only be accessed in the range of their scope.</li>
+                    </ul>
+                <h3>Questions</h3>
+                    <ol>
+                        <li>The example in Ch15 on modules didn't work for me. When I tried importing Pi from the other js file an error says that I 
+                            cannot import oustide of a module.</li>
+                        <li>Why do numbers need to be a string when displayed with console.log? </li>
+                    </ol>
+        </main>
+        
+    </body>
+</html>
