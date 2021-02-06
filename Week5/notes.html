@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 5 Notes</title> 
+        <meta name="description" content="Notes based on week 5 reading">
+        <link rel="stylesheet" href="../index.css">
+    </head>
+    <body>
+        <main>
+            <h1>Week 5</h1>
+            <h2>Assignment</h2>
+                <ol>
+                    <li>JavaScript: Novice to Ninja - Chapter 10: Testing and Debugging</li>
+                    <li><a href="https://eloquentjavascript.net/code/">Codes on Sandbox for Chapter 8</a></li>
+                </ol>
+
+            <h2>Notes</h2>
+                <h3>JavaScript: Novice to Ninja - Chapter 10: Testing and Debugging</h3>
+                    <ul>
+                        <li>Errors are usually caused by one of three things: system error, programmer error, or 
+                            user error. A system error is when there is a problem with the system or devices that 
+                            the program interacts with. A programmer error is incorrect syntax or faulty logic, 
+                            forgetting or adding teh wrong symbol. A user error is when the user entered data 
+                            incorrectly and the program doesn't know how to handle it. </li>
+                        <li>User errors can be minimized by the programmer predicting errors that could be made 
+                            and then preventing those errors.</li>
+                        <li>Exceptions are caused when something isn't there to access like calling a function 
+                            that hasn't been written yet.</li>
+                        <li>Stack trace: a sequence of function or method calls that lead to the root of the error.</li>
+                        <li>A program can still work when a warning is issued but it is unwise to do so, as the 
+                            program will continue to run incorrectly and pay cause problems later in the code.</li>
+                        <li><b>Fail loudly in in development</b> so that any errors can be fixed before the program 
+                            fails silently later on. To do this a programmer needs to test rigorously.</li>
+                        <li>Writing a code in strict mode may seem like it will cause more problems at first but in 
+                            the long run the program will run faster and be better quality. To use strict mode: 
+                            'use strict'; Strict mode can also be used inside individual functions. Modules are in 
+                            strict mode by default.</li>
+                        <li>Linting tools will point out sloppy programming and enforce a style guide. Online 
+                            recources are JS Lint, JS Hint, and ES Lint.</li>
+                        <li>Using feature detection would allow me to check if a users device is able to handle 
+                            something in particular, if it is then it will call the method, if not it will fail 
+                            gracefully and not throw exceptions. Modernizr and Can I Use? are good resources to 
+                            check what features are being supported.</li>
+                        <li>Adding alerts can add breakpoints, checking if things have worked up to a certain 
+                            point, before moving on. Console.log doesn't stop or pause the program but still 
+                            shows the results as they occur. Remove all debugging instances before 'shipping' 
+                            a program or in my case, turning it in.</li>
+                        <li>An error object can be created to show a message when an error occurs. Errors have 
+                            properties, the three properties that are always safe to use are name (name of 
+                            error constrictor), message (description of the error) and stack (stack trace for error). </li>
+                        <li>When exceptions occur the program terminates with an error message. In development this allows 
+                            programmers to see potential problems, but to a user it will appear that the program crashed 
+                            and that doesn't reflect well.</li>
+                        <li>try, catch and finally allow the code to run as normal but passes the error to the catch block.</li>
+                        <li>Create rigorous tests to work out kinks, errors, or mistakes.</li>
+                        <li>TDD or test driven development is writing teh test before writing the code so that initially 
+                            nothing passes. As the code is written it will continuously be tested and eventually pass. 
+                            After passing the code can be made faster, easier to read, and remove repitition. The stepes 
+                            of TDD are 1-Write tests that initially fail, 2-write code to pass the tests, 3- refactor the 
+                            code, 4-test refactored code, and 5-write more tests for new features.</li>
+                    </ul>
+                <h3>Questions</h3>
+                    <ol>
+                        <li>Do you use TDD? Do you think as students we should use TDD?</li>
+                        <li>Are there other TDD frameworks that you would recommend looking into? (Besides Jest)</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+        </main>
+        
+    </body>
+</html>

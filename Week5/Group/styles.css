@@ -1,0 +1,80 @@
+/* 
+Palatte Colors-https://coolors.co/8ab0ab-b6c5cd-26413c-1a1d1a-03120e
+    Morning Blue-#8AB0AB
+    MSU Green-#2613C
+    Eerie Black-#1A1D1A
+    Dark Jungle Green-#03120E
+    Beau Blue-#B6C5CD
+*/
+h1 {
+    font-family: 'Carter One', cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: #8AB0AB;
+    color: #03120E;
+    text-align: center;
+    padding: 2em 0;
+    margin: 0 auto;
+    width: 75%;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Carter One', cursive;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #B6C5CD;
+    color: #1A1D1A;
+    padding-bottom: 1em;
+    margin: 1em auto;
+    list-style: none;
+    text-align: center;
+    font-size: larger;
+    width: 75%;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hikeStyles {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.hikeStyles li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#hikes h2 {
+    grid-column: span 2;
+    grid-row: 0/1;
+    padding: .5em;
+    background-color: #26413C;
+    color: white;
+    margin-top: 0;
+}
+
+#hikes h3 {
+    color: #1A1D1A;
+}
+#hikes img {
+    grid-column: 0/1;
+    grid-row: 1/2;
+    max-width: 80%;
+}
+
+#hikes p {
+    grid-column: 1/2;
+}
+
+.hidden {
+    display: none;
+  }
