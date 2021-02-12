@@ -7,21 +7,20 @@
 */
 
 body {
-    background-color: #DCCDE8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 1200px;
     margin: auto;
 }
 
 main {
-    background-color: #FDFFFC;
+    background-color: #4CEDF540;
     padding: 0 0 1em;
 
 }
 
 h1, h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #42033D;
+    background-color: #38AFB5;
     color: white;
     text-align: left;
     padding: .3em 1em;
@@ -38,4 +37,16 @@ p {
 
 li {
     padding: .3em 1em;
+}
+
+.linkStyling a:visited {
+    color: black;
+}
+
+.linkStyling a {
+    color: black;
+}
+
+.linkStyling a:hover {
+    color: #F57104;
 }
