@@ -6,29 +6,32 @@
         <title>To Do Application</title> 
         <meta name="description" content="To Do Application for Keeley Imlah in WDD 330: Web Frontend Development II at BYU-Idaho">
         <link rel="stylesheet" href="main.css">
+        <script src="/js/toDos.js" type="module"></script>
     </head>
     <body>
         <main>
             <div class="container">
-                <h1>To Do App</h1>
+                <h1>To Do List</h1>
 
-                <div id="todos">
+                <div class="todo-wrapper">
+                    <div id="todos">
 
+                    </div>
+    
+                    <div class="todo-filters">
+                        <button id="allFilter">All</button>
+                        <button id="activeFilter">Active</button>
+                        <button id="completedFilter">Completed</button>
+                    </div>
                 </div>
-
-                <div class="todo-filters">
-                    <button id="allFilter">All</button>
-                    <button id="activeFilter">Active</button>
-                    <button id="completedFilter">Completed</button>
+                
+                <div class="add-todo-wrapper">
+                    <input id="todoInput" type="text">
+                    <button id="addBtn">Add</button>
                 </div>
             </div>
 
-            <div class="add-todo-wrapper">
-                <input id="todoInput" type="text">
-                <button id="addBtn">Add</button>
-            </div>
+            
         </main>
-        
-        <script src="toDos.js"></script>
     </body>
 </html>

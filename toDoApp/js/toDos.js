@@ -75,9 +75,9 @@ function deleteTodo(e) {
     loadTodos();
 }
 
-function toggleComplete(e) {
+//function toggleComplete(e) {
 
-}
+//}
 
 function applyFilter(e) {
     // clear the list
@@ -90,11 +90,11 @@ function applyFilter(e) {
     // Check which filter to apply
     if(e.currentTarget.id == 'activeFilter') {
         filteredTodos = utilities.activeFilter(allTodos)
-    } else if (e.currentTarget.id == 'allFilter') {
+    } /*else if (e.currentTarget.id == 'allFilter') {
         filteredTodos = allTodos
     } else {
         filteredTodos = utilities.completedFilter(allTodos)
-    }
+    }*/
 
     // Draw the list
     filteredTodos.forEach( todo => {
