@@ -7,10 +7,11 @@ function activeFilter(todos) {
 
 function completedFilter(todos) {
     return todos.filter(todos => {
-        return todo.completed
+        return todos.completed
     })
 }
 
 export default {
-    activeFilter
+    activeFilter,
+    completedFilter
 }
