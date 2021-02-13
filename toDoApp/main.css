@@ -1,6 +1,5 @@
 .container {
-  min-width: 400px;
-  width: 45%;
+  width: 450px;
   margin: auto auto;
   margin-top: 20px;
   background-color: #E7ECEF;
@@ -86,8 +85,7 @@
   background-color: #274C77;
   color: white;
   border-radius: 3px;
-  margin-left: 30px;
+  margin-left: 15px;
   margin-top: 22px;
   height: 22px;
 }
-
