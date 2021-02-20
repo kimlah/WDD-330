@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 7 Notes</title> 
+        <meta name="description" content="Notes based on week 7 reading">
+        <link rel="stylesheet" href="../index.css">
+    </head>
+    <body>
+        <main>
+            <h1>Week 7</h1>
+            <h2>Assignment</h2>
+                <ol>
+                    <li>JavaScript: Novice to Ninja - Chapter 11: Further Functions</li>
+                    <li>JavaScript: Novice to Ninja - Chapter 13: AJAX</li>
+                    <li><a href="https://eloquentjavascript.net/code/">Codes on Sandbox for Chapters 5 and 18</a></li>
+                </ol>
+
+            <h2>Notes</h2>
+                <h3>JavaScript: Novice to Ninja - Chapter 11: Further Functions</h3>
+                    <ul>
+                        <li>Functions are first class objects. This makes it so that they can be passed around like other values are. They have properties and methods.</li>
+                        <li>Call Method-can be used to set the value of this inside a function.</li>
+                        <li>Other properties can be added to a function, such as adding a description by functionName.description = 'this is an example description.' </li>
+                        <li>Memoization provides result caching. By caching the result it makes the program run more quickly because the value is saved and just needs to be reprinted/displayed.</li>
+                        <li><a href="https://www.youtube.com/watch?v=WbwP4w6TpCk">Memoization youtube video</a> This helped me see what memoization 
+                            does and how it actually improves even a simple program/</li>
+                        <li>IIFE, said iffy, stands for immediately invoked function expressions. A function can be called immediately after it is defined by 
+                            placing the function in parenthesis and then placing parenthesis immediately following. This keeps the global namespace from being polluted with lots of variable names.</li>
+                        <li>While using IIFE a temporary value can be called, called temp, that is only available when the IIFE is called and then "disapears". IIFE is good for initialization codes, 
+                            a welcome message for example, that will only need to be used on start up and then isn't going to be used again. Strict mode can be used in conjunction with IIFE putting 
+                            personally created code in a function with 'use strict' and then immediately call the function. IIFE can also be used to run code seprately from another part by splitting 
+                            it into two blocks. Then variables of the same name can be used without interfering with each other.</li>
+                        <li>Functions can be designed to rewrite themselves by assigning an anonymous function to a variable that has the same name as the function.</li>
+                        <li>Recursive methods invoke themselves until a condition is met, usually something becoming true, or false, or reaching a certain number.</li>
+                        <li>I didn't know that JS is a single thread environment, meaning that it only can process one piece of code at a time. Events can be run out of order, or asynchronously. </li>
+                        <li>Don't use multiple callbacks. The promise life cycle has a promise <i>pending</i> while the operation is still in the works. Once the operation is completed it is said to 
+                            be settled, which can mean one of two things, that it is resolved or rejected. Both outcomes will return relevent data. </li>
+                        <li>Promise layout: const promise = new Promise( (resolve, reject) => {
+                            // initialization code goes here
+                            if (success) {
+                                resolve(value);
+                            } else {
+                                reject(error);
+                            }
+                            });
+                        </li>
+                        <li>Async Functions-precede asynchronous code as if it were synchronous. This is done using the await operator. 
+                            This wraps the return value in a promise that can be assigned to a variable. The next line of code isn't 
+                            executed until the promise is resolved.</li>
+                        <li>Pure functions are more flexible and like building blocks because they only preform one task.</li>
+                        <li>Higher order function can accept another function as an arguement, return a function as a result, or do both. </li>
+                        <li>Currying is like giving the function one arguement at a time instead if all at once. </li>
+                    </ul>
+                <h3>JavaScript: Novice to Ninja - Chapter 13: AJAX</h3>
+                    <ul>
+                        <li>Ajax stands for asynchronous JavaScript and XML, the parts of the process being used. The program 
+                            doesn't have to wait for a response because an event can be fired when a response is received. JS 
+                            is considered a front end language but Ajax enables JS to send requests and receive responses from 
+                            a server, allowing content to update in real time. XML used to be used but now JSON is easier to 
+                            use because it is supported by JS.</li>
+                        <li>Basic fetch example: fetch('https://example.com/data')
+                            .then( // code that handles the response )
+                            .catch( // code that runs if the server returns an error )</li>
+                        <li>Request Interface
+                            <ul>
+                                <li>url-only required property. url of requested resource</li>
+                                <li>method-a string that specifies which HTTP method to use for request, default id 'GET'.</li>
+                                <li>headers-object that provides details of the request's headers</li>
+                                <li>mode-can specify if CORS(Cross-Orgin Resource Sharing) is used or not. Enabled by default.</li>
+                                <li>cache-allows specification of how the request will use browser's cache.</li>
+                                <li>credentials-lets you specify if cookies should be allowed with request.</li>
+                                <li>redirect=specifies what to do if the response returns a redirect. There are three choices
+                                    <ol>
+                                        <li>'follow'-redirect is followed</li>
+                                        <li>'error'-an error is thrown</li>
+                                        <li>'manual'-user has to click on a link to follow the redirect.</li>
+                                    </ol>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                <h3>Questions</h3>
+                    <ol>
+                        <li>Do you have a good example of currying?</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+        </main>
+        
+    </body>
+</html>

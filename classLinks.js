@@ -118,7 +118,37 @@ const classLinks = [
         week: "Week 6",
         type: "To Do App",
         link: "toDoApp/index.html"
-    }
+    },
+    {
+        week: "Week 7",
+        type: "Notes",
+        link: "Week7/notes.html"
+    },
+    {
+        week: "Week 7",
+        type: "Exercise 1",
+        link: "Week7/exercise1.html"
+    },
+    {
+        week: "Week 7",
+        type: "Exercise 3",
+        link: "Week7/exercise3.html"
+    },
+    {
+        week: "Week 7",
+        type: "Exercise 4",
+        link: "Week7/exercise4.html"
+    },
+    {
+        week: "Week 7",
+        type: "Exercise 5",
+        link: "Week7/exercise5.html"
+    },
+    {
+        week: "Week 7",
+        type: "Team",
+        link: "Week7/Group/index.html"
+    },
 ];
 
 
