@@ -148,7 +148,7 @@ const classLinks = [
         week: "Week 7",
         type: "Team",
         link: "Week7/Group/index.html"
-    },
+    }
 ];
 
 
