@@ -148,6 +148,26 @@ const classLinks = [
         week: "Week 7",
         type: "Team",
         link: "Week7/Group/index.html"
+    },
+    {
+        week: "Week 8",
+        type: "Notes",
+        link: "Week7/notes.html"
+    },
+    {
+        week: "Week 7",
+        type: "Exercise 1",
+        link: "Week8/exercise1.html"
+    },
+    {
+        week: "Week 8",
+        type: "Exercise 3",
+        link: "Week8/exercise3.html"
+    },
+    {
+        week: "Week 8",
+        type: "Team",
+        link: "Week8/Group/index.html"
     }
 ];
 
