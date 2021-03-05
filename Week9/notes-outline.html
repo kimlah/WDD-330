@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 4 Notes</title> 
+        <meta name="description" content="Notes based on week 4 reading">
+        <link rel="stylesheet" href="../index.css">
+    </head>
+    <body>
+        <main>
+            <h1>Week 4</h1>
+            <h2>Assignment</h2>
+                <ol>
+                    <li>JavaScript: Novice to Ninja - Chapter 9: The Window Object</li>
+                    <li>JavaScript: Novice to Ninja - Chapter 14: HTML5 APIs</li>
+                    <li>Modern Front End Development Workflow</li>
+                </ol>
+
+            <h2>Notes</h2>
+                <h3>JavaScript: Novice to Ninja - Chapter 9: The Window Object</h3>
+                    <ul>
+                        <li>Browser Object Model or BOM is a collection of properties and methods, available through the window object, that contain 
+                            information about the browser and computer screen. </li>
+                        <li>Dialogs: alert(), confirm(), prompt() are three functions that produced dialogs in the browsers.</li>
+                        <li><ul>Browser information: 
+                                <li>navigator property that returns a reference to the Navigator object. Navigator contains information 
+                                    about the browser being used. </li>
+                                <li>location property is an object that contains informations about the URL of the current page. href 
+                                    property returns the full URL as a string. protocol property returns a string describing the protocol 
+                                    (ie http, https, etc). host property returns a string describing the domain and port number. hostname 
+                                    returns string describing domain. port returns a string describing the port number. pathname returns 
+                                    a string of the path that follows the domain. </li>
+                        </ul></li>
+                        <li>Broswer history: window.history can be used to access informatin anout previously visited pages in the current 
+                            browsing session. window.history.length shows how many pages have been visited. window.history.go() can be 
+                            used to go to a specific page.</li>
+                        <li>Controlling Windows: new window can be opened using window.open() method.</li>
+                        <li>Screen Information: window.screen object contains information about the screen being used. The height and width 
+                            can be found by using window.screen.height and window.screen.width. On mobile devices we can also use window.screen 
+                            to find out screen orientation and locked position.</li>
+                        <li>Document Object: document.write(message); writes a string of text to the page. This is something we should hardly, if ever, need to use.</li>
+                        <li>Cookies: small files saved locally on a user's computer. They are limited to storing 4KB of data and 20 cookies are allowed per domain.
+                            To create cookies- document.cookie = 'value=pair'. To see the current contents of the cookie jar just enter document.cookie
+                        </li>
+                        <li><ul>Timing functions:
+                                <li>setTimeout() method accepts a callback to a function as the first parameter and the number of milliseconds as it's second parameter.</li>
+                                <li>clearTimeout() method can clear an alert</li>
+                                <li>setInterval() methos is similar to setTimeout() but it will repeatedly invoke the callback every given number of milliseconds.</li>
+                        </ul> </li>
+                        <li>Animation: CSS is better to use but JS can be used too.</li>
+                    </ul>
+                <h3>JavaScript: Novice to Ninja - Chapter 14: HTML5 APIs</h3>
+                    <ul>
+                        <li>data attribute- a way of embedding data in a web page using custom attributes that are ignored by the browser and private to the page. The name 
+                            can be chosen by the developer but has to start with data-, contain only lowecase letters, numbers, hyphens, dots, colons or underscores; and 
+                            include an optional string value. Example: data-powers = 'flight'</li>
+                        <li>Web Storage aka localStorage- similar to cookies but with fewer limitations, more storage and easier to use. Info stored is not shared with the server on every 
+                            request. Info is available on multiple windows is domain is the same. Most browsers have a 5KB storage limit but there isn't technically a 
+                            limit. Data does not expire  like it does with cookies. There is also a sessionStorage object that works similarly to localStorage. To store 
+                            a value in localStorage: localStorage.getItem('item'); the item can be removed with localStorage.removeItem('item'); or cleared with localStorage.clear();</li>
+                        <li>Geolocation-used to obtain the global position of the device. Permission has to be granted first because of privacy concerns. 
+                            navigator.geolocation.getCurrentPosition(youAreHere); It returns a latitude and longitude of coordinates.</li>
+                        <li>Position also has speed, altitude, heading and timestamp properties</li>
+                        <li>Web workers-allow processes to be run in the background, especially if they take along time so that the site does not crash.</li>
+                        <li>Video and audio can be added to a page now when it had to be done with flash before.</li>
+                        <li>Audio and video methods include play, pause, valuse, mutes, currentTime, playbackRate, loop, and duration.</li>
+                    </ul>
+                <h3>Questions</h3>
+                    <ol>
+
+                    </ol>
+        </main>
+        
+    </body>
+</html>

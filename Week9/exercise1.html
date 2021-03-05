@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>Animation Example</title>
+        <link rel='stylesheet' href='styles.css'>
+    </head>
+    <style>
+        /*#square {
+        margin: 100px;
+        width: 100px;
+        height: 100px;
+        background: #d16;*/
+
+        #square {
+        margin: 100px;
+        width: 100px;
+        height: 100px;
+        background: rgb(120, 29, 180);
+        animation: spin 4s linear infinite;
+        }
+        @keyframes spin { from { transform:rotate(0deg); } to { transform:rotate(3600deg); } }
+    }
+    </style>
+
+    <body>
+        <div id='square'></div>
+        
+        <script src='exercise1.js'></script>
+    </body>
+</html>
