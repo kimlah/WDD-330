@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 10 Notes</title> 
+        <meta name="description" content="Notes based on week 10 reading">
+        <link rel="stylesheet" href="../index.css">
+    </head>
+    <body>
+        <main>
+            <h1>Week 4</h1>
+            <h2>Assignment</h2>
+                <ol>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation">MDN: Validating forms</a></li>
+                    <li><a href="">MDN: Using fetch</a></li>
+                </ol>
+
+            <h2>Notes</h2>
+                <h3>MDN: Validating forms</h3>
+                    <ul>
+                        <li>Client side form validation-making sure all required form controls are filled out in the correct format. 
+                            Validation is done in the browser and is called client-side. Validation done on the server is called 
+                            server-side validation.</li>
+                        <li><ol>Types of client-side validation
+                                <li>Built in form validation using HTML5 validation features. Built in form validation has better 
+                                    performance than javascript but is not as customizable.</li>
+                                <li>Javascript validation is completely customizable but you have to creat eit all or use a library.</li>
+                        </ol></li>
+                        <li>If something on a form is invalid it blocks the user from sending in the form.</li>
+                        <li>Pattern is another useful validation feature. A regular expression or regex is a pattern that can be used to 
+                            match character combinations in text strings.</li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Regular Expressions List</a></li>
+                    </ul>
+                <h3>MDN: Using fetch</h3>
+                    <ul>
+                        <li>The fetch API provides JS an interface for accessing and manipulating parts of the http pipeline such as requests and responses.</li>
+                        <li>fetch() won't reject on HTTP error status but will resolve normally and only reject on network failure or if something prevents the request from completing.</li>
+                        <li>fetch() won't send cross-orgin cookies.</li>
+                        <li>fetch('http://example.com/movies.json')<br>
+                            .then(response => response.json())<br>
+                            .then(data => console.log(data));</li>
+                        <li>fetch can be used to send a request with credentials, upload JSON data, upload a file, uploading multiple files, to process 
+                            a text file line by line, checking that fetch was successful, etc. </li>
+                        <li>The headers interface allows us to create our own headers object via the Headers() constructor. A headers object is a simple multi-map of names to values.</li>
+                        <li><ul>Possible Guard Values:
+                                <li><b>none</b>: default</li>
+                                <li><b>request</b>: guard for a headers object obtained from a request</li>
+                                <li><b>request-no-cors</b>: guard for a headers object obtained from a request created with Request.mode no-cors.</li>
+                                <li><b>response</b>: guard for a headers object obtained from a response (Response.headers).</li>
+                                <li><b>immutable</b>: guard that renders a headers object read-only; mostly used for ServiceWorkers.</li>
+                        </ul></li>
+                        <li>Response instances are returned when fetch() promises are resolved.</li>
+                        <li><ul>The most common response properties you will use:
+                                <li><b>Response.status</b>: An integer (default value 200) containing the response status code.</li>
+                                <li><b>Response.statusText</b>: A string (default value ""), which corresponds to the HTTP status code message. Note that HTTP/2 does not support status messages.</li>
+                                <li><b>Response.ok</b>: seen in use above, this is a shorthand for checking that status is in the range 200-299 inclusive. This returns a Boolean.</li>
+                        </ul></li>
+                    </ul>
+                <h3>Questions</h3>
+                    <ol>
+                        <li>Are we supposed to add our weekly progress for our block project to our TOC every week? Or do you just want it at the end?</li>
+                        <li>Were we supposed to get feedback on our project proposal? I haven't received any feedback on mine.</li>
+                    </ol>
+        </main>
+        
+    </body>
+</html>
