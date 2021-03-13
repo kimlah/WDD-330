@@ -198,7 +198,27 @@ const classLinks = [
         week: "Week 9",
         type: "Team",
         link: "Week9/Group/index.html"
-    }
+    },
+    {
+        week: "Week 10",
+        type: "Notes",
+        link: "Week10/notes.html"
+    },
+    {
+        week: "Week 10",
+        type: "Exercise 1",
+        link: "Week10/exercise1.html"
+    },
+    {
+        week: "Week 10",
+        type: "Team",
+        link: "Week10/Group/index.html"
+    },
+    {
+        week: "Week 10 Block Project",
+        type: "Team",
+        link: "Week10/MathFactsGame/index.html"
+    
 ];
 
 

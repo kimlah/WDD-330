@@ -4,12 +4,43 @@
     <meta charset="utf-8" />
         <title>Local Quakes</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            body {
+                margin: 0 200px;
+                background-color: azure;
+            }
+            .quakeStyles {
+              list-style-type: disc;
+              padding-left: 20px;
+            }
+            .quakeStyles li {
+              margin: 0.5em 0;
+            }
+            .quakeStyles div {
+              font-size: 1em;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h1 {
+                color: turquoise;
+                background-color: black;
+                margin: 5px, 10px;
+                padding: 5px;
+            }
+        </style>
     </head>
 
     <body>
-        <main>
+        <header>
+            <nav>
+              <heading>
+                <nav><ul id="mainNav"></ul></nav>
+              </heading>
+            </nav>
+        </header>
+        <main id="content">
             <h1>Quake List</h1>
-            <ul id="quakeList" ></ul>
+            <ul id="quakeList" class="quakeStyles"></ul>
         </main>
+        <script src="index.js" type="module"></script>
     </body>
 </html>
