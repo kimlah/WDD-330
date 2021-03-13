@@ -215,8 +215,8 @@ const classLinks = [
         link: "Week10/Group/index.html"
     },
     {
-        week: "Week 10 Block Project",
-        type: "Team",
+        week: "Week 10",
+        type: "Block Project",
         link: "Week10/MathFactsGame/index.html"
     }
 ];
