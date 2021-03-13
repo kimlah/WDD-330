@@ -218,7 +218,7 @@ const classLinks = [
         week: "Week 10 Block Project",
         type: "Team",
         link: "Week10/MathFactsGame/index.html"
-    
+    }
 ];
 
 
