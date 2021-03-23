@@ -218,6 +218,16 @@ const classLinks = [
         week: "Week 10",
         type: "Block Project",
         link: "Week10/MathFactsGame/index.html"
+    },
+    {
+        week: "Week 12",
+        type: "Block Project",
+        link: "MathNinjaVersion/index.html"
+    },
+    {
+        week: "Week 12",
+        type: "Block Project",
+        link: "MathFactsGame/index.html"
     }
 ];
 
