@@ -1,0 +1,733 @@
+{
+    "level1": [
+        {
+            "level": 1,
+            "equation": "1 + 1 =",
+            "answer": 2,
+            "hint": "1+1.jpg",
+            "description": "1 red crab plus 1 red crab",
+            "score": 1,
+            "class": "red"
+        },
+        {
+            "level": 1,
+            "equation": "1 + 2 =",
+            "answer": 3,
+            "hint": "1+2.jpg",
+            "description": "1 red crab plus 2 red crabs",
+            "score": 1,
+            "class": "blue"
+        },
+        {
+            "level": 1,
+            "equation": "1 + 3 =",
+            "answer": 4,
+            "hint": "1+3.jpg",
+            "description": "1 red crab plus 3 red crabs",
+            "score": 1,
+            "class": "green"
+        },
+        {
+            "level": 1,
+            "equation": "1 + 4 =",
+            "answer": 5,
+            "hint": "1+4.jpg",
+            "description": "1 red crab plus 4 red crabs",
+            "score": 1,
+            "class": "orange"
+        },
+        {
+            "level": 1,
+            "equation": "2 + 1 =",
+            "answer": 3,
+            "hint": "2+1.jpg",
+            "description": "2 orange carrots plus 1 orange carrot",
+            "score": 1,
+            "class": "red"
+        },
+        {
+            "level": 1,
+            "equation": "2 + 2 =",
+            "answer": 4,
+            "hint": "2+2.jpg",
+            "description": "2 orange carrots plus 2 orange carrots",
+            "score": 1,
+            "class": "blue"
+        },
+        {
+            "level": 1,
+            "equation": "2 + 3 =",
+            "answer": 5,
+            "hint": "2+3.jpg",
+            "description": "2 orange carrots plus 3 orange carrots",
+            "score": 1,
+            "class": "green"
+        },
+        {
+            "level": 1,
+            "equation": "3 + 1 =",
+            "answer": 4,
+            "hint": "3+1.jpg",
+            "description": "3 purple umbrellas plus 1 purple umbrella",
+            "score": 1,
+            "class": "orange"
+        },
+        {
+            "level": 1,
+            "equation": "3 + 2 =",
+            "answer": 5,
+            "hint": "3+2.jpg",
+            "description": "3 purple umbrellas plus 2 purple umbrellas",
+            "score": 1,
+            "class": "red"
+        },
+        {
+            "level": 1,
+            "equation": "4 + 1 =",
+            "answer": 5,
+            "hint": "4+1.jpg",
+            "description": "4 yellow suns plus 1 yellow sun",
+            "score": 1,
+            "class": "blue"
+        }
+    ],
+
+    "level2": [
+        {
+            "level": 2,
+            "equation": "1+5=",
+            "answer": 6,
+            "hint": "images/level2/1+5.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "1+6=",
+            "answer": 7,
+            "hint": "images/level2/1+6.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "1+7=",
+            "answer": 8,
+            "hint": "images/level2/1+7.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "1+8=",
+            "answer": 9,
+            "hint": "images/level2/1+8.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "1+9=",
+            "answer": 10,
+            "hint": "images/level2/1+9.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "2+4=",
+            "answer": 6,
+            "hint": "images/level2/2+4.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "2+5=",
+            "answer": 7,
+            "hint": "images/level2/2+5.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "2+6=",
+            "answer": 8,
+            "hint": "images/level2/2+6.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "2+7=",
+            "answer": 9,
+            "hint": "images/level2/2+7.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "2+8=",
+            "answer": 10,
+            "hint": "images/level2/2+8.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "3+3=",
+            "answer": 6,
+            "hint": "images/level2/3+3.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "3+4=",
+            "answer": 7,
+            "hint": "images/level2/3+4.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "3+5=",
+            "answer": 8,
+            "hint": "images/level2/3+5.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "3+6=",
+            "answer": 9,
+            "hint": "images/level2/3+6.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "3+7=",
+            "answer": 10,
+            "hint": "images/level2/3+7.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "4+2=",
+            "answer": 6,
+            "hint": "images/level2/4+2.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "4+3=",
+            "answer": 7,
+            "hint": "images/level2/4+3.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "4+4=",
+            "answer": 8,
+            "hint": "images/level2/4+4.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "4+5=",
+            "answer": 9,
+            "hint": "images/level2/4+5.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "4+6=",
+            "answer": 10,
+            "hint": "images/level2/4+6.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "5+1=",
+            "answer": 6,
+            "hint": "images/level2/5+1.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "5+2=",
+            "answer": 7,
+            "hint": "images/level2/5+2.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "5+3=",
+            "answer": 8,
+            "hint": "images/level2/5+3.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "5+4=",
+            "answer": 9,
+            "hint": "images/level2/5+4.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "5+5=",
+            "answer": 10,
+            "hint": "images/level2/5+5.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "6+1=",
+            "answer": 7,
+            "hint": "images/level2/6+1.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "6+2=",
+            "answer": 8,
+            "hint": "images/level2/6+2.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "6+3=",
+            "answer": 9,
+            "hint": "images/level2/6+3.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "6+4=",
+            "answer": 10,
+            "hint": "images/level2/6+4.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "7+1=",
+            "answer": 8,
+            "hint": "images/level2/7+1.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "7+2=",
+            "answer": 9,
+            "hint": "images/level2/7+2.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "7+3=",
+            "answer": 10,
+            "hint": "images/level2/7+3.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "8+1=",
+            "answer": 9,
+            "hint": "images/level2/8+1.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "8+2=",
+            "answer": 10,
+            "hint": "images/level2/8+2.jpg",
+            "score": 1
+        },
+        {
+            "level": 2,
+            "equation": "9+1=",
+            "answer": 10,
+            "hint": "images/level2/9+1.jpg",
+            "score": 1
+        }
+    ],
+
+    "level3": [
+        {
+            "level": 3,
+            "equation": "10-1=",
+            "answer": 9,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "10-2=",
+            "answer": 8,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "10-3=",
+            "answer": 7,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "10-4=",
+            "answer": 6,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "10-5=",
+            "answer": 5,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "9-1=",
+            "answer": 9,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "9-2=",
+            "answer": 7,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "9-3=",
+            "answer": 6,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "9-4=",
+            "answer": 5,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "9-5=",
+            "answer": 4,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "8-1=",
+            "answer": 7,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "8-2=",
+            "answer": 6,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "8-3=",
+            "answer": 5,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "8-4=",
+            "answer": 4,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "8-5=",
+            "answer": 3,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "7-1=",
+            "answer": 6,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "7-2=",
+            "answer": 5,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "7-3=",
+            "answer": 4,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "7-4=",
+            "answer": 3,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "7-5=",
+            "answer": 2,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "6-1=",
+            "answer": 5,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "6-2=",
+            "answer": 4,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "6-3=",
+            "answer": 3,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "6-4=",
+            "answer": 2,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "6-5=",
+            "answer": 1,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "5-1=",
+            "answer": 4,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "5-2=",
+            "answer": 3,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "5-3=",
+            "answer": 2,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "5-4=",
+            "answer": 1,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "4-1=",
+            "answer": 3,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "4-2=",
+            "answer": 2,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "4-3=",
+            "answer": 1,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "3-1=",
+            "answer": 2,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "3-2=",
+            "answer": 1,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 3,
+            "equation": "2-1=",
+            "answer": 1,
+            "hint": "",
+            "score": 1
+        }
+    ],
+
+    "level4": [
+        {
+            "level": 4,
+            "equation": "1+10=",
+            "answer": 11,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "2+10=",
+            "answer": 12,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "3+10=",
+            "answer": 13,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "4+10=",
+            "answer": 14,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "5+10=",
+            "answer": 15,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "6+10=",
+            "answer": 16,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "7+10=",
+            "answer": 17,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "8+10=",
+            "answer": 18,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "9+10=",
+            "answer": 19,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "10+10=",
+            "answer": 20,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "20-10=",
+            "answer": 10,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "19-10=",
+            "answer": 9,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "18-10=",
+            "answer": 8,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "17-10=",
+            "answer": 7,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "16-10=",
+            "answer": 6,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "15-10=",
+            "answer": 5,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "14-10=",
+            "answer": 4,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "13-10=",
+            "answer": 3,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "12-10=",
+            "answer": 2,
+            "hint": "",
+            "score": 1
+        },
+        {
+            "level": 4,
+            "equation": "11-10=",
+            "answer": 1,
+            "hint": "",
+            "score": 1
+        }
+    ]
+}

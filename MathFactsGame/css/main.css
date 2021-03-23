@@ -1,0 +1,93 @@
+/*
+Color Palette: https://coolors.co/f94144-603140-f9844d-f9c74f-a8c256-5b85aa
+    Red Salsa- F94144
+    United Nations Blue- 5386E4
+    Mango Tango- F9844D
+    Maize Crayola- F9C74F
+    Medium Sea Green - 44AF69
+    Steel Blue- 5B85AA
+
+Font Choices:
+    Architects Daughter- font-family: 'Architects Daughter', cursive;  
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    Shadows into Light Two- font-family: 'Architects Daughter', cursive;
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    Comic Neue- font-family: 'Architects Daughter', cursive;
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+*/
+
+body {
+    background-color: #F9C74F;
+    padding: 1.5rem;
+    padding-top: 2.5rem;
+}
+
+main {
+    background-color: #E9E9EC;
+    font-family: 'Architects Daughter', cursive;
+    width: 80%;
+    margin: auto auto;
+    padding: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.work_area {
+    display: inline;
+}
+
+.flashcard {
+    display: inline;
+    padding: .75rem;
+    text-align: center;
+    font-size: x-large;
+}
+
+.red {
+    color: #F9393C
+}
+
+.blue {
+    color: #5386E4;
+}
+
+.green {
+    color: #3FA261;
+}
+
+.orange {
+    color: #F76926;
+}
+
+.user_answer {
+    text-align: center;
+    padding: .75rem;
+}
+
+#answer {
+    font-family: 'Architects Daughter', cursive;
+    height: 2rem;
+    font-size: x-large;
+}
+
+.buttons {
+    text-align: center;
+    padding: .75rem;
+}
+
+#answer_submit, #hint_button {
+    font-family: 'Architects Daughter', cursive;
+    font-size: large;
+    width: 15rem;
+    height: 2.5rem;
+    background-color: #F9844D;
+}
+
+.hint {
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}

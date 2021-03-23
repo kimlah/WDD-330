@@ -5,31 +5,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Grade K-2-The Math Facts Game</title> 
         <meta name="description" content="Math fact game made for kids ages 5-8 or kinder to 2nd grade to work on basic math facts.">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+        
     </head>
     <body>
         <main>
             <h1>The Math Facts Game</h1>
-            <h2>Choose your level</h2>
+            <!--<h2>Choose your level</h2>
             <div class="level_buttons">
                 <button id="level1">Level<br>Addition to 5</button>
                 <button id="level2">Level 2<br>Addition to 10</button>
                 <button id="level3">Level 3<br>Subtraction 1-5</button>
                 <button id="level4">Level 4<br>Adding and Subtracting 10</button>
+            </div> -->
+
+            <div class="work_area">
+                <div class="flashcard" id="math_problem">
+
+                </div>
+                <div class="user_answer">
+                    <input id="answer" type="text" required>
+                </div>
             </div>
 
-            <div class="flashcard"></div>
+            
 
-            <div class="user_answer">
-                <input id="answer">
+            <div class="buttons">
                 <button id="answer_submit">Check My Answer</button>
                 <button id="hint_button">Hint Please</button>
             </div>
 
-            <div class="hint">
-                <img src=images/level1/1+1.jpg>
-            </div>
+            <div class="hint"></div>
         </main>
-        
+        <script src="js/display.js"></script>
+        <script src="js/hint.js"></script>
     </body>
 </html>
