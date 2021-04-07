@@ -1,5 +1,5 @@
 body {
-    background-color: #F9C74F;
+    background-color: #5386E4;
     padding: 1.5rem;
     padding-top: 2.5rem;
 }
@@ -7,7 +7,7 @@ body {
 .quiz-body {
     background-color: #E9E9EC;
     font-family: 'Architects Daughter', cursive;
-    width: 80%;
+    width: 60%;
     margin: auto auto;
     padding: 1.5rem;
 }
