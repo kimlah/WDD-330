@@ -220,15 +220,10 @@ const classLinks = [
         link: "Week10/MathFactsGame/index.html"
     },
     {
-        week: "Week 12",
+        week: "Final Project",
         type: "Block Project",
         link: "MathNinjaVersion/index.html"
     },
-    {
-        week: "Week 12",
-        type: "Block Project",
-        link: "MathFactsGame/index.html"
-    }
 ];
 
 
