@@ -14,6 +14,5 @@ function shuffle(array) {
 }
 
 export {
-    random,
     shuffle
 }

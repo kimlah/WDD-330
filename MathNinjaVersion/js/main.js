@@ -1,6 +1,6 @@
-import { view, game } from './quiz.js'
+import { view, game } from '../js/quiz.js'
 
-const file = "math_facts.json";
+const file = "data/math_facts.json";
 
 fetch(file)
     .then(res => res.json())

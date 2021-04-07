@@ -1,6 +1,6 @@
 //document.getElementById("#math_problem").addEventListener("load", displayMathFact)
 
-function displayMathFact() {
+/*function displayMathFact() {
     fetch(file)
     .then(function (response) {
         return response.json();
@@ -12,12 +12,12 @@ function displayMathFact() {
         let mathFact = [];
         
     }
-}
+}*/
 
 // file is a local JSON file called math_facts.json
 const file = './data/math_facts.json'
 
-/*fetch(file)
+fetch(file)
     .then(function (response) {
         return response.json();
     })
@@ -36,4 +36,4 @@ const file = './data/math_facts.json'
             card.appendChild(h1);
             document.querySelector("div.flashcard").appendChild(card);
         }
-    });*/
+    });

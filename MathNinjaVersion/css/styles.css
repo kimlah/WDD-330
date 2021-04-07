@@ -60,12 +60,21 @@ header {
     padding: .75rem;
 }
 
-#answer_submit, #hint_button, #start {
+#answer_submit, #hint_button {
     font-family: 'Architects Daughter', cursive;
     font-size: large;
     width: 15rem;
     height: 2.5rem;
     background-color: #3FA261;
+}
+
+#level1Start, #level2Start, #level3Start, #level4Start {
+    font-family: 'Architects Daughter', cursive;
+    font-size: large;
+    width: 15rem;
+    height: 3.5rem;
+    background-color: #3FA261;
+    margin-top: .75rem;
 }
 
 .hint {
@@ -75,6 +84,9 @@ header {
     margin-right: 20%;
 }
 
-#result, #info, #score {
-    font-size: larger;
+.scoreboard {
+    padding: .5rem;
+    color: #F76926;
+    font-size: x-large;
 }
+
