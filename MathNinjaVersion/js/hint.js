@@ -36,7 +36,7 @@ function hintPlease() {
                 let card = document.createElement("section");
 
                 let image = document.createElement("img");
-                image.setAttribute("src", "images/level1/" + mathHint[i].hint);
+                image.setAttribute("src", "images/" + level + "/" + mathHint[i].hint);
                 image.setAttribute("alt", `Photo of ${mathHint[i].description}`);
                 document.querySelector("div.hint").appendChild(card);
                 card.appendChild(image);
